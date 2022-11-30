@@ -2,6 +2,7 @@
 # 8-uppercase.py
 #Eke Patience <alfredpatience03gmail.com>
 
+
 def uppercase(str):
     """Print a string in uppercase."""
     for c in str:
