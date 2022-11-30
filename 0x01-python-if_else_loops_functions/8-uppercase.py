@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # 8-uppercase.py
-# Brennan D Baraban <375@holbertonschool.com>
-
+#Eke Patience <alfredpatience03gmail.com>
 
 def uppercase(str):
     """Print a string in uppercase."""
