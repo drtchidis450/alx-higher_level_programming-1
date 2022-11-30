@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 12-fizzbuzz.py
-# Brennan D Baraban <375@holbertonschool.com>
+# Eke Patience <alfredpatienc03@gmail.com>
 
 
 def fizzbuzz():
