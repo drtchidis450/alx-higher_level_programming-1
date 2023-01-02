@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-Rectangle = __import__('0-rectangle').Rectangle
-my_rectangle = Rectangle()
-print(type(my_rectangle))
-print(my_rectangle.__dict__)
+
+"""""This module create a rectangle"""
+
+class Rectangle:
+     """
+     pass atribute - empty class
+     """
+     def __init__(self):
+         pass
