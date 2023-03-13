@@ -1,5 +1,5 @@
 #!/usr/bin/node
-// Script that print a message depending on the number of argment
+// Script that print a message depending on the number of argument
 
 if (process.argv.length ===2)
 {
@@ -7,10 +7,10 @@ if (process.argv.length ===2)
 }
 else if (process.argv.length ===3)
 {
-	console.log('Aguement found');
+	console.log('Agument found');
 }
 
 else
 {
-	console.log('Arguement found');
+	console.log('Argument found');
 }
