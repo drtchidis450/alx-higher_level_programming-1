@@ -1,9 +1,11 @@
 #!/usr/bin/node
-const lang = 'C is fun';
-if (isNaN(process.argv[2])) {
-  console.log('Missing number of occurrences');
+const size = Math.floor(Number(process.argv[2]));
+if (isNaN(size)) {
+  console.log('Missing size');
 } else {
-  for (let i = 0; i < parseInt(process.argv[2]); i++) {
-    console.log(lang);
+  for (let r = 0; r < size; r++) {
+    let row = '';
+    for (let c = 0; c < size; c++) row += 'X';
+    console.log(row);
   }
 }
